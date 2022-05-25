@@ -7,7 +7,7 @@
 
 main(){
 	
-	int numero, recebe, menos=1;
+	int numero, recebe, menos=1, mais=1, recebe1;
 	
 	
 	
@@ -15,7 +15,8 @@ main(){
 	scanf("%i", &numero);
 	
 	recebe =(numero - menos);
+	recebe1 =(numero + mais);
 	
-	printf("Numero: [%i]", recebe);
+	printf("antecessor: [%i]\nSucessor:[%i]", recebe, recebe1);
 	
 }
